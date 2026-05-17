@@ -13,7 +13,7 @@
 [![Google Antigravity](https://img.shields.io/badge/Google-Antigravity-EA4335?style=for-the-badge&logo=google&logoColor=white)](https://antigravity.google.dev)
 [![Railway](https://img.shields.io/badge/Deployed-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app)
 
-[🔗 Live API](YOUR_RAILWAY_URL) • [📱 Flutter App Repo](YOUR_FLUTTER_REPO) • [🎥 Demo Video](YOUR_DEMO_VIDEO)
+[🔗 Live API](https://railway.com/project/2cf9932a-c782-4e11-818c-b6a94a181ad0?) • [📱 Flutter App Repo](https://github.com/mujtaba88-1036/RAHAT-Mobile/tree/main) • [🎥 Demo Video](YOUR_DEMO_VIDEO)
 
 </div>
 
@@ -308,8 +308,7 @@ Autonomously scans Pakistani news RSS feeds for crisis signals.
 ### Setup
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/rahat-backend.git
-cd rahat-backend
+https://github.com/mujtaba88-1036/RAHAT.git
 
 # Virtual environment
 python -m venv venv
@@ -435,18 +434,6 @@ The agents are trained with Pakistani emergency context:
 
 ---
 
-## 🐳 Docker Deployment
-
-```bash
-# Build
-docker build -t rahat-backend .
-
-# Run
-docker run -p 8080:8080 \
-  -e GEMINI_API_KEY_1=your_key \
-  rahat-backend
-```
-
 ---
 
 ## 📈 Performance
@@ -462,14 +449,6 @@ docker run -p 8080:8080 \
 
 ---
 
-## 🔗 Related
-
-- **Flutter App:** [YOUR_FLUTTER_REPO](YOUR_FLUTTER_REPO)
-- **Demo Video:** [YouTube](YOUR_DEMO_VIDEO)
-- **Live API:** [YOUR_RAILWAY_URL](YOUR_RAILWAY_URL)
-- **Google Antigravity:** [antigravity.google.dev](https://antigravity.google.dev)
-
----
 
 ## 📄 License
 
