@@ -13,13 +13,11 @@ load_dotenv()
 # ═══════════════════════════════════════════════════════════
 # Multi-Key Configuration with Auto-Rotation
 # ═══════════════════════════════════════════════════════════
-GEMINI_API_KEYS = [
-    os.getenv("GEMINI_API_KEY_1"),
-    os.getenv("GEMINI_API_KEY_2"),
-    os.getenv("GEMINI_API_KEY_3"),
-]
-# Filter out None/empty values
-GEMINI_API_KEYS = [k for k in GEMINI_API_KEYS if k]
+GEMINI_API_KEYS = []
+for i in range(1, 20):
+    key = os.getenv(f"GEMINI_API_KEY_{i}")
+    if key:
+        GEMINI_API_KEYS.append(key)
 
 if not GEMINI_API_KEYS:
     logging.warning("No GEMINI_API_KEY_* found in environment. Demo fallback will be used.")
