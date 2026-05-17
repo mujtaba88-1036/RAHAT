@@ -481,6 +481,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 **RAHAT Backend — Powering Crisis Intelligence for Pakistan 🇵🇰**
 
-*Built with Google Antigravity + Gemini AI for the Google Antigravity Hackathon 2025*
+*Built with Google Antigravity + Gemini AI for the Google Antigravity Hackathon 2026*
 
 </div>
